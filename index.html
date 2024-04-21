@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="mf.css">
+</head>
+<body>
+  <div>
+    <button id="toggleImage">
+      Click Me
+    </button>
+  </div>
+  <img id="myImage" style="display:none;" src="middle-finger-gangsar-kuswoyo-transparent.png" alt="An image">
+  <script>
+    document.getElementById('toggleImage').addEventListener('click', function() {
+      document.getElementById('toggleImage').style.display = 'none';
+      document.getElementById('myImage').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
